@@ -9,6 +9,8 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/.gitt
+/Packages/com.ptc.vuforia.engine-10.17.4.tgz
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -70,3 +72,14 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+Assets/Plugins/Android/Vuforia/
+Assets/Plugins/iOS/Vuforia/
+
+# Vuforia files
+VuforiaLicense.dat
+Vuforia.SDK/
+Vuforia.SDK.LICENSE.txt
+Vuforia.SDK.ReleaseNotes.txt
+
