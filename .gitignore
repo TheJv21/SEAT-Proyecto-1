@@ -78,8 +78,8 @@ Assets/Plugins/Android/Vuforia/
 Assets/Plugins/iOS/Vuforia/
 
 # Vuforia files
-VuforiaLicense.dat
-Vuforia.SDK/
-Vuforia.SDK.LICENSE.txt
-Vuforia.SDK.ReleaseNotes.txt
+#VuforiaLicense.dat
+#Vuforia.SDK/
+#Vuforia.SDK.LICENSE.txt
+#Vuforia.SDK.ReleaseNotes.txt
 
