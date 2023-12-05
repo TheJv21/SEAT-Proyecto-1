@@ -855,7 +855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9935dc5e212a3194bbb37180a37f585e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.33
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9935dc5e212a3194bbb37180a37f585e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -888,6 +888,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9935dc5e212a3194bbb37180a37f585e, type: 3}
       propertyPath: m_Name
       value: SecretoPrincesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9935dc5e212a3194bbb37180a37f585e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d5e7fbac849532c42a9d4e3c0e3c46fe, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 9935dc5e212a3194bbb37180a37f585e, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9935dc5e212a3194bbb37180a37f585e, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1699,6 +1711,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paladin J Nordstrom
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 2d08245986f3cfa4097320f000e15e34, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 862ce8babddac2b47bcb9a82b2734ca0, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 2d08245986f3cfa4097320f000e15e34, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 2d08245986f3cfa4097320f000e15e34, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1986,7 +2010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d10354255edae1847b49dd580642078f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.25
+      value: -0.45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d10354255edae1847b49dd580642078f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2019,6 +2043,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d10354255edae1847b49dd580642078f, type: 3}
       propertyPath: m_Name
       value: RatoncitoOscuridad
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d10354255edae1847b49dd580642078f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 862ce8babddac2b47bcb9a82b2734ca0, type: 2}
+    - target: {fileID: 5866666021909216657, guid: d10354255edae1847b49dd580642078f, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d10354255edae1847b49dd580642078f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2077,6 +2113,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hojas
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 07d97d834608e5b48a4c6015e13a1dfc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 862ce8babddac2b47bcb9a82b2734ca0, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 07d97d834608e5b48a4c6015e13a1dfc, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 07d97d834608e5b48a4c6015e13a1dfc, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2133,6 +2181,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b0a0404ea6e4f94fb1ce593742824a5, type: 3}
       propertyPath: m_Name
       value: "Ni\xF1oHoras"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5b0a0404ea6e4f94fb1ce593742824a5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 862ce8babddac2b47bcb9a82b2734ca0, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 5b0a0404ea6e4f94fb1ce593742824a5, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5b0a0404ea6e4f94fb1ce593742824a5, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
