@@ -6,22 +6,14 @@ using TMPro;
 
 public class comparacion : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     [SerializeField] private string respuesta; 
-    // [SerializeField] private GameObject mariposa; 
-    // [SerializeField] private GameObject paisaje;
-    private MostrarPreguntas preguntas;
-    private Adivinanza adivinanzaActual;
-
-    private void Awake()
-    {
-        preguntas = GetComponent<MostrarPreguntas>();
-    }
+    [SerializeField] private ListaAdivinanzas preguntas;
 
 
     public void ValidarRespuesta()
     {
-        adivinanzaActual = preguntas.GetCurrentRiddle();
+        Adivinanza adivinanzaActual = preguntas.GetCurrentRiddle();
         Debug.Log("respuesta: "+respuesta);
         Debug.Log("answer: "+adivinanzaActual.answer);
 
@@ -32,12 +24,6 @@ public class comparacion : MonoBehaviour
     }
 
 
-    // Cambiar a la siguiente adivinanza
-    public void ReRoll(){
-        preguntas.NextRiddle();
-        adivinanzaActual = preguntas.GetCurrentRiddle();
-        preguntas.MostrarAdivinanza();
-    }
 
     
 }
