@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3154ce435834b6449d9fee66034a138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuesta: Rocas
+  respuesta: Paladin
   preguntas: {fileID: 335411507}
 --- !u!114 &135222916
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 135222912}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Rocas
+  mTargetName: Paladin
   mDatasetName: Vuforia/dbUDV.xml
   mCastedBehaviour: {fileID: 135222912}
   mMeshFilter: {fileID: 0}
@@ -440,8 +440,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
+      propertyPath: mHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mPreview
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
+      propertyPath: mAspectRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
+      propertyPath: mTrackableName
+      value: Paladin
       objectReference: {fileID: 0}
     - target: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: m_Name
@@ -770,17 +782,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   adivinanzaInspector:
-  - question: "Soy el hogar de insectos, y me alimento de la luz. \xBFQu\xE9 soy?"
-    answer: Hojas
-  - question: "Soy dura y pesada pero me puedo romper. \xBFQu\xE9 soy?"
-    answer: Rocas
-  - question: "Tengo agujas pero no s\xE9 coser, tengo n\xFAmeros pero no s\xE9 leer,
-      las horas te doy, \xBFSabes qui\xE9n soy?"
-    answer: Reloj
-  - question: "\xBFQu\xE9 es lo que cuanto m\xE1s grande es menos se ve?"
-    answer: Oscuridad
-  - question: Existo cuando me guardan, muero cuando me sacan.
-    answer: Secreto
+  - question: "Lucho por el bien y la justicia, Llevo una espada y un escudo. Tengo
+      un coraz\xF3n noble y valiente, \xBFQui\xE9n soy?  "
+    answer: Paladin
+  - question: "Vuelo por el bosque, Con alas de luz y estrellas. Soy un esp\xEDritu
+      de la naturaleza, \xBFQui\xE9n soy?"
+    answer: Hada
+  - question: "Llevo un vestido de sat\xE9n, Una corona en la cabeza. Vivo en un
+      castillo, \xBFQui\xE9n soy?  "
+    answer: Princesa
+  - question: "Tengo una cola peluda, Orejas largas y puntiagudas. Me gusta comer
+      queso, \xBFQui\xE9n soy?  "
+    answer: Raton
   LabelAdivinanzas: {fileID: 1165604738}
   LabelPuntos: {fileID: 280951718}
 --- !u!1 &423723348 stripped
@@ -819,6 +832,25 @@ MonoBehaviour:
   respuesta: Reloj
   preguntas: {fileID: 335411507}
 --- !u!114 &423723354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423723348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 423723350}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: reloj
+  mDatasetName: Vuforia/dbUDV.xml
+  mCastedBehaviour: {fileID: 423723350}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &423723355
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -968,7 +1000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mHeight
-      value: 0.536154
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mPreview
@@ -976,11 +1008,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mAspectRatio
-      value: 0.536154
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mTrackableName
-      value: oscuridad
+      value: Mouse
       objectReference: {fileID: 0}
     - target: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: m_Name
@@ -1107,7 +1139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mHeight
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mPreview
@@ -1115,11 +1147,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mAspectRatio
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mTrackableName
-      value: secreto
+      value: Princess
       objectReference: {fileID: 0}
     - target: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: m_Name
@@ -1761,7 +1793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3154ce435834b6449d9fee66034a138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuesta: Secreto
+  respuesta: Princesa
   preguntas: {fileID: 335411507}
 --- !u!114 &1224591401
 MonoBehaviour:
@@ -1777,7 +1809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1224591397}
   mHiddenRoot: {fileID: 0}
-  mTargetName: secreto
+  mTargetName: Princess
   mDatasetName: Vuforia/dbUDV.xml
   mCastedBehaviour: {fileID: 1224591397}
   mMeshFilter: {fileID: 0}
@@ -1815,7 +1847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3154ce435834b6449d9fee66034a138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuesta: Oscuridad
+  respuesta: Raton
   preguntas: {fileID: 335411507}
 --- !u!114 &1242326694
 MonoBehaviour:
@@ -1831,7 +1863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1242326690}
   mHiddenRoot: {fileID: 0}
-  mTargetName: oscuridad
+  mTargetName: Mouse
   mDatasetName: Vuforia/dbUDV.xml
   mCastedBehaviour: {fileID: 1242326690}
   mMeshFilter: {fileID: 0}
@@ -1921,6 +1953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Q3
       objectReference: {fileID: 0}
+    - target: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8946985774862569354, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1991,6 +2027,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 423723354}
+    - targetCorrespondingSourceObject: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 423723355}
   m_SourcePrefab: {fileID: 100100000, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
 --- !u!1001 &1560416827
 PrefabInstance:
@@ -2352,7 +2391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3154ce435834b6449d9fee66034a138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuesta: Hojas
+  respuesta: Hada
   preguntas: {fileID: 335411507}
 --- !u!114 &2023357046
 MonoBehaviour:
@@ -2368,7 +2407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2023357042}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Hojas
+  mTargetName: Fairy
   mDatasetName: Vuforia/dbUDV.xml
   mCastedBehaviour: {fileID: 2023357042}
   mMeshFilter: {fileID: 0}
@@ -2435,7 +2474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mHeight
-      value: 0.662162
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mPreview
@@ -2443,15 +2482,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mAspectRatio
-      value: 0.662162
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8107360880191996012, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: mTrackableName
-      value: Hojas
+      value: Fairy
       objectReference: {fileID: 0}
     - target: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: m_Name
       value: Q4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8463530014296914779, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8946985774862569354, guid: 95bb5c40011f1ae4ea3f2ec18f1217e0, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.size
