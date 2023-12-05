@@ -19,7 +19,8 @@ public class ListaAdivinanzas : MonoBehaviour
     private static List<Adivinanza> adivinanza;
     private static int currentRiddleIndex;
     [SerializeField] private List<Adivinanza> adivinanzaInspector = new List<Adivinanza>();
-    [SerializeField] private TMP_Text TMPLabel;
+    [SerializeField] private TMP_Text LabelAdivinanzas;
+    [SerializeField] private TMP_Text LabelPuntos;
 
 
     private void Start()
@@ -56,14 +57,19 @@ public class ListaAdivinanzas : MonoBehaviour
         {
             // Manejar el caso en el que no haya más adivinanzas disponibles
             //TMPLabel.text = "No hay más adivinanzas.";
-            CambiarTexto("No hay más adivinanzas.");
+            CambiarTexto("**FIN DEL JUEGO**");
         }
     }
 
     //Funcion para cambiar el texto en pantalla
     public void CambiarTexto(string texto)
     {
-        TMPLabel.text = texto;
+        LabelAdivinanzas.text = texto;
+    }
+
+    public void CambiarPuntos(string texto)
+    {
+        LabelPuntos.text = texto;
     }
 
     public Adivinanza GetCurrentRiddle()
