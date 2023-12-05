@@ -34,7 +34,15 @@ public class ValidarRespuestas : MonoBehaviour
 
     public void FueraFoco()
     {
-        preguntas.MostrarAdivinanza();
+        if (flag == true)
+        {
+            preguntas.ReRoll();
+        }
+        else
+        {
+            preguntas.MostrarAdivinanza();
+        }
+
     }
 
     public void PuntuacionSuma()

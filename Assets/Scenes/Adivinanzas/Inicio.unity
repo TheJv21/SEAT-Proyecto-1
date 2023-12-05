@@ -1179,17 +1179,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   adivinanzaInspector:
-  - question: "Soy el hogar de insectos, y me alimento de la luz. \xBFQu\xE9 soy?"
-    answer: Hojas
-  - question: "Soy dura y pesada pero me puedo romper. \xBFQu\xE9 soy?"
-    answer: Rocas
-  - question: "Tengo agujas pero no s\xE9 coser, tengo n\xFAmeros pero no s\xE9 leer,
-      las horas te doy, \xBFSabes qui\xE9n soy?"
-    answer: Reloj
-  - question: "\xBFQu\xE9 es lo que cuanto m\xE1s grande es menos se ve?"
-    answer: Oscuridad
-  - question: Existo cuando me guardan, muero cuando me sacan.
-    answer: Secreto
+  - question: "Lucho por el bien y la justicia, Llevo una espada y un escudo. Tengo
+      un coraz\xF3n noble y valiente, \xBFQui\xE9n soy?  "
+    answer: Paladin
+  - question: "Vuelo por el bosque, Con alas de luz y estrellas. Soy un esp\xEDritu
+      de la naturaleza, \xBFQui\xE9n soy?"
+    answer: Hada
+  - question: "Llevo un vestido de sat\xE9n, Una corona en la cabeza. Vivo en un
+      castillo, \xBFQui\xE9n soy?  "
+    answer: Princesa
+  - question: "Tengo una cola peluda, Orejas largas y puntiagudas. Me gusta comer
+      queso, \xBFQui\xE9n soy?  "
+    answer: Raton
   LabelAdivinanzas: {fileID: 0}
   LabelPuntos: {fileID: 0}
 --- !u!1 &1600033874
