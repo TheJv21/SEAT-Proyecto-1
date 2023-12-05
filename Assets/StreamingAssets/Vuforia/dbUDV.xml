@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="secreto" size="1.000000 0.500000" />
-    <ImageTarget name="oscuridad" size="1.000000 0.536154" />
-    <ImageTarget name="reloj" size="1.000000 0.666667" />
-    <ImageTarget name="Hojas" size="1.000000 0.662162" />
-    <ImageTarget name="Rocas" size="1.000000 0.745189" />
+    <ImageTarget name="Princess" size="1.000000 1.000000" />
+    <ImageTarget name="Paladin" size="1.000000 1.000000" />
+    <ImageTarget name="Mouse" size="1.000000 1.000000" />
+    <ImageTarget name="Fairy" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>
