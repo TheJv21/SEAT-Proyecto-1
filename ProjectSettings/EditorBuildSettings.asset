@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Adivinanzas/Pregunta.unity
     guid: d7f38895124900143b52d837f417af34
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Adivinanzas/Fin.unity
     guid: 9cd0a5fd062ae1a459121f24473a26b5
   m_configObjects: {}

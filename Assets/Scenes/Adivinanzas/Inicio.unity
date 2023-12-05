@@ -804,6 +804,7 @@ GameObject:
   - component: {fileID: 985421861}
   - component: {fileID: 985421860}
   - component: {fileID: 985421859}
+  - component: {fileID: 985421863}
   m_Layer: 5
   m_Name: PantallaInicio
   m_TagString: Untagged
@@ -895,6 +896,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &985421863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985421858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ab72cd88716344ca7764455d04f6ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  adivinanzaInspector:
+  - question: "Soy el hogar de insectos, y me alimento de la luz. \xBFQu\xE9 soy?"
+    answer: Hojas
+  - question: "Soy dura y pesada pero me puedo romper. \xBFQu\xE9 soy?"
+    answer: Rocas
+  - question: "Tengo agujas pero no s\xE9 coser, tengo n\xFAmeros pero no s\xE9 leer,
+      las horas te doy, \xBFSabes qui\xE9n soy?"
+    answer: Reloj
+  - question: "\xBFQu\xE9 es lo que cuanto m\xE1s grande es menos se ve?"
+    answer: Oscuridad
+  - question: Existo cuando me guardan, muero cuando me sacan.
+    answer: Secreto
+  LabelAdivinanzas: {fileID: 0}
+  LabelPuntos: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

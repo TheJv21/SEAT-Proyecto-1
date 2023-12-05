@@ -57,7 +57,7 @@ public class ListaAdivinanzas : MonoBehaviour
         {
             // Manejar el caso en el que no haya más adivinanzas disponibles
             //TMPLabel.text = "No hay más adivinanzas.";
-            CambiarTexto("**FIN DEL JUEGO**");
+            CambiarTexto("** FIN DEL JUEGO **");
         }
     }
 

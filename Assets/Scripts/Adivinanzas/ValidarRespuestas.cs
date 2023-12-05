@@ -21,13 +21,13 @@ public class ValidarRespuestas : MonoBehaviour
 
         if (adivinanzaActual != null && respuesta == adivinanzaActual.answer)
         {
-            preguntas.CambiarTexto("**Correcto**\n|Respuesta: " + respuesta + "|");
-            Puntuacion();
-
+            preguntas.CambiarTexto("**Correcto**\n| Respuesta: " + respuesta + " |");
+            PuntuacionSuma();
         }
         else
         {
-            preguntas.CambiarTexto("**Incorrecto**\n|Intentalo de nuevo");
+            preguntas.CambiarTexto("**Incorrecto**\n| Intentalo de nuevo |");
+            PuntuacionResta();
         }
 
     }
@@ -37,13 +37,22 @@ public class ValidarRespuestas : MonoBehaviour
         preguntas.MostrarAdivinanza();
     }
 
-    public void Puntuacion()
+    public void PuntuacionSuma()
     {
         if (flag == false)
         {
             punteo = punteo + 50;
             flag = true;
-            preguntas.CambiarPuntos("Puntos: "+punteo);
+            preguntas.CambiarPuntos("Puntos: " + punteo);
+        }
+    }
+
+    public void PuntuacionResta()
+    {
+        if (punteo > 0)
+        {
+            punteo = punteo - 10;
+            preguntas.CambiarPuntos("Puntos: " + punteo);
         }
     }
 
