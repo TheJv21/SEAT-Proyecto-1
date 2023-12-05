@@ -13,7 +13,7 @@ public class Adivinanza
     public string answer;
 }
 
-public class MostrarPreguntas : MonoBehaviour
+public class ListaAdivinanzas : MonoBehaviour
 
 {
     private static List<Adivinanza> adivinanza;
