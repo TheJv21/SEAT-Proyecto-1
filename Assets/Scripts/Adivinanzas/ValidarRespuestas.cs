@@ -37,6 +37,7 @@ public class ValidarRespuestas : MonoBehaviour
         if (flag == true)
         {
             preguntas.ReRoll();
+            flag=false;
         }
         else
         {
